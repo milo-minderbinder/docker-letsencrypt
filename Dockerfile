@@ -1,5 +1,5 @@
 # mminderbinder/letsencrypt
-FROM mminderbinder/baseimage:0.9.18
+FROM mminderbinder/baseimage
 MAINTAINER Milo Minderbinder <minderbinder.enterprises@gmail.com>
 
 RUN apt-get update && apt-get -y install \
