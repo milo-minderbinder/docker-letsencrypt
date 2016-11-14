@@ -1,0 +1,7 @@
+version: '2'
+services:
+    letsencrypt:
+        build: .
+        image: mminderbinder/letsencrypt:latest
+        container_name: letsencrypt
+        env_file: letsencrypt.env
